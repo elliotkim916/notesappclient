@@ -11,7 +11,6 @@ const NoteForm = ({ header, button, createNewNote, updateNote, id, updateNoteTit
     } else {
       updateNote(id, title, content, () => window.location.reload());
     }
-    
   };
   
   return (
